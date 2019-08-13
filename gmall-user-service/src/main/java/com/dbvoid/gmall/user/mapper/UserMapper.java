@@ -3,8 +3,6 @@ package com.dbvoid.gmall.user.mapper;
 import com.dbvoid.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
-import java.util.List;
-
 /**
  * @author DBVoid
  * @date 2019/8/9 - 14:28

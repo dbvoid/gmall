@@ -1,5 +1,6 @@
 package com.dbvoid.gmall.user.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.dbvoid.gmall.bean.UmsMember;
 import com.dbvoid.gmall.bean.UmsMemberReceiveAddress;
 import com.dbvoid.gmall.service.UserService;
@@ -18,7 +19,8 @@ import java.util.List;
 @Controller
 public class UserController {
 
-    @Resource
+    //远程代理注入
+    @Reference
     private UserService userService;
 
     @RequestMapping("/getReceiveAddressByMemberId")

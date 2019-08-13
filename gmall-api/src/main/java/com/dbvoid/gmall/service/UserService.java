@@ -1,7 +1,7 @@
-package com.dbvoid.gmall.user.service;
+package com.dbvoid.gmall.service;
 
-import com.dbvoid.gmall.user.bean.UmsMember;
-import com.dbvoid.gmall.user.bean.UmsMemberReceiveAddress;
+import com.dbvoid.gmall.bean.UmsMember;
+import com.dbvoid.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 

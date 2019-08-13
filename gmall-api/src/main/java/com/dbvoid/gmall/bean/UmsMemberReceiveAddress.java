@@ -1,4 +1,4 @@
-package com.dbvoid.gmall.user.bean;
+package com.dbvoid.gmall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;

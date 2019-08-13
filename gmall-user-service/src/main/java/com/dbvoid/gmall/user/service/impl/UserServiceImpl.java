@@ -1,11 +1,11 @@
 package com.dbvoid.gmall.user.service.impl;
 
-import com.dbvoid.gmall.service.UserService;
+import com.alibaba.dubbo.config.annotation.Service;
 import com.dbvoid.gmall.bean.UmsMember;
 import com.dbvoid.gmall.bean.UmsMemberReceiveAddress;
+import com.dbvoid.gmall.service.UserService;
 import com.dbvoid.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.dbvoid.gmall.user.mapper.UserMapper;
-import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;
 
 import javax.annotation.Resource;

@@ -1,36 +1,30 @@
-package com.dbvoid.gmall.user.bean;
+package com.dbvoid.gmall.bean;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @author DBVoid
- * @date 2019/8/9 - 15:56
- */
 public class UmsMember implements Serializable {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
-    private String memberLevelId;
+    private String         memberLevelId;
     private String username;
-    private String password;
+    private String         password;
     private String nickname;
-    private String phone;
+    private String         phone;
     private int status;
     private Date createTime;
     private String icon;
-    private int gender;
+    private int         gender;
     private Date birthday;
-    private String city;
+    private String        city;
     private String job;
-    private String personalizedSignature;
+    private String         personalizedSignature;
     private int sourceType;
-    private int integration;
+    private int         integration;
     private int growth;
-    private int luckeyCount;
+    private int         luckeyCount;
     private int historyIntegration;
 
     public String getId() {
